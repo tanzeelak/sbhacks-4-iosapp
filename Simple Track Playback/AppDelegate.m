@@ -18,7 +18,7 @@
 #import <SpotifyAuthentication/SpotifyAuthentication.h>
 #import <SpotifyMetadata/SpotifyMetadata.h>
 #import <SpotifyAudioPlayback/SpotifyAudioPlayback.h>
-#import "Config.h"
+#import "Config.h" 
 @import UIKit;
 @import Firebase;
 

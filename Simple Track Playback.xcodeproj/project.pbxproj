@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0744C19C1D9C03EA00C051FF /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0744C1991D9C03EA00C051FF /* SpotifyAudioPlayback.framework */; };
-		0744C19D1D9C03EA00C051FF /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0744C19A1D9C03EA00C051FF /* SpotifyAuthentication.framework */; };
-		0744C19E1D9C03EA00C051FF /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0744C19B1D9C03EA00C051FF /* SpotifyMetadata.framework */; };
 		378297E518BCDF4000EFF728 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378297E418BCDF4000EFF728 /* Security.framework */; };
 		378297E718BCDF4700EFF728 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378297E618BCDF4700EFF728 /* AVFoundation.framework */; };
 		37E2C9D118B4DF7D00D5D823 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E2C9D018B4DF7D00D5D823 /* Foundation.framework */; };
@@ -27,6 +25,8 @@
 		999DC7141DAFD7C2005C0796 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999DC7131DAFD7C2005C0796 /* SafariServices.framework */; };
 		CE0C640C1A9B61EB00B5F6F6 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0C640B1A9B61EB00B5F6F6 /* LoginController.m */; };
 		CE4A60C91A9CBF9600DDA394 /* backdrop.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4A60C81A9CBF9600DDA394 /* backdrop.png */; };
+		DD09AF0E2014BC1B0054C87E /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD09AF0C2014BC1B0054C87E /* SpotifyAuthentication.framework */; };
+		DD09AF0F2014BC1B0054C87E /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD09AF0D2014BC1B0054C87E /* SpotifyMetadata.framework */; };
 		DD3274FE1A26C53F00957EF7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3274FD1A26C53F00957EF7 /* CoreData.framework */; };
 		DD76375C1A2039CF00AE0BDC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD76375A1A2007F100AE0BDC /* libsqlite3.dylib */; };
 		DDEF18DC2014731F0015D087 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEF18DB2014731F0015D087 /* CoreLocation.framework */; };
@@ -36,8 +36,6 @@
 
 /* Begin PBXFileReference section */
 		0744C1991D9C03EA00C051FF /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
-		0744C19A1D9C03EA00C051FF /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
-		0744C19B1D9C03EA00C051FF /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
 		16631DC83EE0D6E2093C0D68 /* Pods-Simple Track Playback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Track Playback.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Track Playback/Pods-Simple Track Playback.release.xcconfig"; sourceTree = "<group>"; };
 		378297E418BCDF4000EFF728 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		378297E618BCDF4700EFF728 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -64,6 +62,8 @@
 		CE4A60C81A9CBF9600DDA394 /* backdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backdrop.png; sourceTree = "<group>"; };
 		CECF6ACB1A1B7EFB000A29BD /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		D2069357BAC33F7A3AC27BD7 /* Pods_Simple_Track_Playback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Track_Playback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD09AF0C2014BC1B0054C87E /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		DD09AF0D2014BC1B0054C87E /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
 		DD3274FD1A26C53F00957EF7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DD76375A1A2007F100AE0BDC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		DDEF18DB2014731F0015D087 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -81,15 +81,15 @@
 				DDEF18DC2014731F0015D087 /* CoreLocation.framework in Frameworks */,
 				999DC7141DAFD7C2005C0796 /* SafariServices.framework in Frameworks */,
 				999DC7121DAFD7BF005C0796 /* WebKit.framework in Frameworks */,
-				0744C19E1D9C03EA00C051FF /* SpotifyMetadata.framework in Frameworks */,
+				DD09AF0E2014BC1B0054C87E /* SpotifyAuthentication.framework in Frameworks */,
 				DD3274FE1A26C53F00957EF7 /* CoreData.framework in Frameworks */,
 				0744C19C1D9C03EA00C051FF /* SpotifyAudioPlayback.framework in Frameworks */,
 				DD76375C1A2039CF00AE0BDC /* libsqlite3.dylib in Frameworks */,
 				378297E718BCDF4700EFF728 /* AVFoundation.framework in Frameworks */,
 				378297E518BCDF4000EFF728 /* Security.framework in Frameworks */,
 				37E2C9D318B4DF7D00D5D823 /* CoreGraphics.framework in Frameworks */,
+				DD09AF0F2014BC1B0054C87E /* SpotifyMetadata.framework in Frameworks */,
 				37E2C9D518B4DF7D00D5D823 /* UIKit.framework in Frameworks */,
-				0744C19D1D9C03EA00C051FF /* SpotifyAuthentication.framework in Frameworks */,
 				37E2C9D118B4DF7D00D5D823 /* Foundation.framework in Frameworks */,
 				65400EDF2240F3C2EC4F6CD7 /* Pods_Simple_Track_Playback.framework in Frameworks */,
 			);
@@ -122,9 +122,9 @@
 				DDEF18DB2014731F0015D087 /* CoreLocation.framework */,
 				999DC7131DAFD7C2005C0796 /* SafariServices.framework */,
 				999DC7111DAFD7BF005C0796 /* WebKit.framework */,
+				DD09AF0C2014BC1B0054C87E /* SpotifyAuthentication.framework */,
+				DD09AF0D2014BC1B0054C87E /* SpotifyMetadata.framework */,
 				0744C1991D9C03EA00C051FF /* SpotifyAudioPlayback.framework */,
-				0744C19A1D9C03EA00C051FF /* SpotifyAuthentication.framework */,
-				0744C19B1D9C03EA00C051FF /* SpotifyMetadata.framework */,
 				DD3274FD1A26C53F00957EF7 /* CoreData.framework */,
 				DD76375A1A2007F100AE0BDC /* libsqlite3.dylib */,
 				378297E618BCDF4700EFF728 /* AVFoundation.framework */,
@@ -443,6 +443,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					../..,
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple Track Playback/Simple Track Playback-Prefix.pch";
@@ -468,6 +469,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					../..,
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple Track Playback/Simple Track Playback-Prefix.pch";
